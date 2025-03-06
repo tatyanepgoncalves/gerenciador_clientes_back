@@ -11,7 +11,7 @@ app.setErrorHandler((error, request, reply) => {
 
 app.register(fastifyCors, {
   origin: true,
-  methods: ["GET"]
+  methods: ["POST", "GET"]
 })
 
 app.register(routes);
