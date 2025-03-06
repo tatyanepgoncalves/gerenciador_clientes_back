@@ -4,11 +4,15 @@ import { routes } from "./routes";
 
 const app = Fastify({ logger: true });
 
-app.register(fastifyCors);
 
 app.setErrorHandler((error, request, reply) => {
   reply.code(400).send({ message: error.message });
 });
+
+app.register(fastifyCors, {
+  origin: true,
+  methods: ["GET"]
+})
 
 app.register(routes);
 
