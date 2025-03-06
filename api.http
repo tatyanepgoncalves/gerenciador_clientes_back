@@ -10,3 +10,4 @@ Content-Type: application/json
 GET http://localhost:3333/customers
 
 ### 
+DELETE http://localhost:3333/customer/67ca2d19b1007b59fef7ac4d
