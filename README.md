@@ -4,9 +4,9 @@
 Um sistema simples de gerenciamento de clientes, desenvolvido com **Fastify**, **Prisma** e **MongoDB**.
 
 ### 🎯 Funcionalidades
-✔️ Cadastrar novos clientes
-✔️ Listar clientes cadastrados
-✔️ Excluir clientes
+✔️ Cadastrar novos clientes <br>
+✔️ Listar clientes cadastrados <br>
+✔️ Excluir clientes <br>
 
 ## 🚀 Tecnologias Utilizadas
 - **Fastify** ⚡
